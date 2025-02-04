@@ -4,7 +4,6 @@ import Sidebar from "./component/Sidebar";
 import Products from "./pages/Products";
 import Commande from "./pages/Commande";
 import Dashbord from "./pages/Dashbord";
-import Inscriptions from "./pages/Inscriptions";
 
 
 function App() {
