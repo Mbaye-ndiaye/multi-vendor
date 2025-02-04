@@ -1,7 +1,7 @@
 import React from 'react'
-import { FaEdit, FaTrash } from "react-icons/fa";
+// import { FaEdit, FaTrash } from "react-icons/fa";
 
-const TableComponet = ({data}) => {
+const TableComponet = () => {
   return (
     <div className="overflow-x-auto">
       <table className="min-w-full bg-white shadow-md rounded-lg overflow-hidden">
@@ -15,7 +15,7 @@ const TableComponet = ({data}) => {
           </tr>
         </thead>
         <tbody>
-            
+
           
         </tbody>
       </table>
