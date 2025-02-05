@@ -11,15 +11,15 @@ const Sidebar = () => {
         <FaBars size={24} />
       </button>
       <nav className="space-y-4">
-        <Link to="/" className="flex items-center space-x-2 hover:bg-gray-700 p-2 rounded">
+        <Link to="/dashbord" className="flex items-center space-x-2 hover:bg-gray-700 p-2 rounded">
           <FaTachometerAlt />
           {isOpen && <span>Dashboard</span>}
         </Link>
-        <Link to="/produits" className="flex items-center space-x-2 hover:bg-gray-700 p-2 rounded">
+        <Link to="/products" className="flex items-center space-x-2 hover:bg-gray-700 p-2 rounded">
           <FaBox />
           {isOpen && <span>Produits</span>}
         </Link>
-        <Link to="/commandes" className="flex items-center space-x-2 hover:bg-gray-700 p-2 rounded">
+        <Link to="/commande" className="flex items-center space-x-2 hover:bg-gray-700 p-2 rounded">
           <FaShoppingCart />
           {isOpen && <span>Commandes</span>}
         </Link>

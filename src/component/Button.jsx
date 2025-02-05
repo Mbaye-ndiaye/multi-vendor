@@ -2,7 +2,7 @@ import React from 'react'
 
 const Button = ({text, onClick, className}) => {
   return (
-    <div>
+    <div className='w-full p-3 px-2'>
       <button className={className} onClick={onClick}>{text}</button>
     </div>
   )

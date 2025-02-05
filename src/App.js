@@ -1,26 +1,18 @@
 import { Routes, Route } from "react-router-dom";
-import Header from "./component/Header";
-import Sidebar from "./component/Sidebar";
-import Products from "./pages/Products";
-import Commande from "./pages/Commande";
-import Dashbord from "./pages/Dashbord";
+import Inscriptions from "./pages/Inscriptions";
+import DashbordLink from "./pages/DashbordLink";
+import Login from "./pages/Login";
 
 
 function App() {
   return (
-    <div className="flex h-screen">
-      <Sidebar />
-      <div className="flex-1 flex flex-col">
-        <Header />
-        <div className="flex-1 p-4 bg-gray-100">
+    <div>
           <Routes>
-          <Route path="/" element={<Dashbord />} />
-          <Route  path="/products" element={<Products />}/>
-          <Route path="/commande" element={<Commande />}/>
+          <Route path="/" element={<Inscriptions />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/*" element={<DashbordLink />} />
           </Routes>
         </div>
-      </div>
-    </div>
   );
 }
 
