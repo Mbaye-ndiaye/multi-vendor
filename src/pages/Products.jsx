@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FaRegTrashAlt } from "react-icons/fa";
 import { MdModeEdit } from "react-icons/md";
 import TableComponent from "../component/TableComponet";
-import Button from "../component/Button";
 import Modal from "../component/Modal";
 
 
